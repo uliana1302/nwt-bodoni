@@ -3,11 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>NWT Bodoni</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('.sidebar a').each(function() {
+      $(this).on('click', function(e) {
+        e.preventDefault();
+        var scrollTo = $(this).attr('href');
+        var whitespace = scrollTo == '#s1' ? 70 : 30;
+        $('html,body').animate({
+          scrollTop: $(scrollTo).offset().top - whitespace
+        }, 1000);
+       });
+      });
+      });
+  </script>
 </head>
 <body>
+  <div class="fon">
+    <img src="images/1440.png" alt="">
+  </div>
+  <section class="first-screen">
+    <div class="srelki_fon">
+      <img src="images/strelki.svg" alt="">
+    </div>
+    <div class="tl-1">
+      <p>PS</p>
+      <p>13</p>
+    </div>
+  </section>
 
 </body>
 </html>
