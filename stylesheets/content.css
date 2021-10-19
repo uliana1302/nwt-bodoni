@@ -19,25 +19,142 @@ section {
   height: 9389px;
   opacity: 0.2;
 }
+/* первый экран */
 .first-screen {
   background: black;
   position:relative;
+  height: 810px;
 }
 .srelki_fon {
   margin-top: 38.2px;
   margin-left: 52.7px;
 }
-.tl-1: nth-of-type(1) p {
+.tl-1 {
   position: absolute;
   font-size: 27px;
-  color: #ffffff;
-  margin-top: 84px;
-  margin-left: 53px;
+  color: white;
+  top: 84px;
+  left: 53px;
 }
-.tl-1: nth-of-type(2) p {
+.tl-2 {
   position: absolute;
-  font-size: 42px;
-  color: #ffffff;
-  margin-top: 84px;
-  margin-left: 89px;
+  font-size: 27px;
+  color: white;
+  top: 224px;
+  left: 217px;
+}
+.tl-3 {
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  top: 224px;
+  left: 1330px;
+}
+.tl-4 {
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  top: 440px;
+  left: 671px;
+}
+.tl-5 {
+  position: absolute;
+  font-size: 27px;
+  color: white;
+  top: 654px;
+  left: 210px;
+}
+/* экран: название + облака */
+.nazvanie {
+  height: 1020px;
+  width: 1440px;
+  position: relative;
+}
+.nwt {
+  position: absolute;
+  font-size: 72px;
+  color: black;
+  top: 250px;
+  left: 165px;
+  font-style: italic;
+}
+.bodoni {
+  position: absolute;
+  font-size: 280px;
+  color: black;
+  top: 77px;
+  left: 340px;
+  font-style: italic;
+}
+.tl-6 {
+  position: absolute;
+  font-size: 27px;
+  color: black;
+  top: 95px;
+  left: 1361px;
+}
+.nazvanie-strelka {
+  position: absolute;
+  top: 127px;
+  right: 0px;
+}
+.nazvanie-text {
+  width: 460px;
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 370px;
+  left: 820px;
+}
+.oblaka {
+  margin-top: 518px;
+  margin-left: 0px;
+  height: 597px;
+  width: 1440px;
+}
+/* экран 3 */
+.ekran3 {
+  height: 1060px;
+  width: 1440px;
+  position: relative;
+  background: black;
+}
+.vetriak {
+  margin-top: 565px;
+  margin-left: 656px;
+  height: 137px;
+  width: 118px;
+}
+.chto {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 750px;
+  left: 645px;
+}
+.razdel1 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 1026px;
+  left: 600px;
+}
+.str-l {
+  position: absolute;
+  margin: 0px;
+  font-size: 130px;
+  color: white;
+  font-style: italic;
+  bottom: 450px;
+  left: -430px;
+  transform: rotate(90deg);
+}
+.str-r {
+  position: absolute;
+  font-size: 130px;
+  color: white;
+  font-style: italic;
+  bottom: 450px;
+  right: -430px;
+  transform: scaleX(-1) rotate(90deg);
 }
