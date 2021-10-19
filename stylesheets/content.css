@@ -5,7 +5,7 @@ body {
   margin: 0 auto;
   padding: 0;
   width: 1440px;
-  font-family: 'NWTBodoni', serif;
+  font-family: 'NWTBodoni-Regular', serif;
   overflow-x: hidden;
 }
 section {
@@ -29,40 +29,75 @@ section {
   margin-top: 38.2px;
   margin-left: 52.7px;
 }
-.tl-1 {
+.first-screen .tl-1 p:nth-of-type(1)  {
   position: absolute;
   font-size: 27px;
   color: white;
   top: 84px;
   left: 53px;
 }
-.tl-2 {
+.first-screen .tl-1 p:nth-of-type(2)  {
+  position: absolute;
+  font-size: 42px;
+  color: white;
+  top: 70px;
+  left: 88px;
+}
+.first-screen .tl-2 p:nth-of-type(1) {
   position: absolute;
   font-size: 27px;
   color: white;
   top: 224px;
   left: 217px;
 }
-.tl-3 {
+.first-screen .tl-2 p:nth-of-type(2) {
+  position: absolute;
+  font-size: 42px;
+  color: white;
+  top: 210px;
+  left: 255px;
+}
+.first-screen .tl-3 p:nth-of-type(1) {
   position: absolute;
   font-size: 27px;
   color: white;
   top: 224px;
   left: 1330px;
 }
-.tl-4 {
+.first-screen .tl-3 p:nth-of-type(2) {
+  position: absolute;
+  font-size: 42px;
+  color: white;
+  top: 210px;
+  left: 1366px;
+}
+.first-screen .tl-4 p:nth-of-type(1) {
   position: absolute;
   font-size: 27px;
   color: white;
   top: 440px;
   left: 671px;
 }
-.tl-5 {
+.first-screen .tl-4 p:nth-of-type(2) {
+  position: absolute;
+  font-size: 42px;
+  color: white;
+  top: 426px;
+  left: 707px;
+}
+.first-screen .tl-5 p:nth-of-type(1) {
   position: absolute;
   font-size: 27px;
   color: white;
   top: 654px;
   left: 210px;
+}
+.first-screen .tl-5 p:nth-of-type(2) {
+  position: absolute;
+  font-size: 42px;
+  color: white;
+  top: 640px;
+  left: 245px;
 }
 /* экран: название + облака */
 .nazvanie {
@@ -76,22 +111,34 @@ section {
   color: black;
   top: 250px;
   left: 165px;
-  font-style: italic;
+  font-family: "NWTBodoni-Italic", serif;
 }
 .bodoni {
   position: absolute;
   font-size: 280px;
   color: black;
   top: 77px;
-  left: 340px;
+  left: 325px;
+  font-family: "NWTBodoni-Italic", serif;
   font-style: italic;
 }
-.tl-6 {
+.bodoni p {
+  font-family: "NWTBodoni-Italic", serif;
+
+}
+.nazvanie .tl-6 p:nth-of-type(1) {
   position: absolute;
   font-size: 27px;
   color: black;
   top: 95px;
   left: 1361px;
+}
+.nazvanie .tl-6 p:nth-of-type(2) {
+  position: absolute;
+  font-size: 42px;
+  color: black;
+  top: 81px;
+  left: 1395px;
 }
 .nazvanie-strelka {
   position: absolute;
@@ -136,7 +183,7 @@ section {
   position: absolute;
   font-size: 20px;
   color: white;
-  top: 1026px;
+  top: 1000px;
   left: 600px;
 }
 .str-l {
@@ -144,7 +191,7 @@ section {
   margin: 0px;
   font-size: 130px;
   color: white;
-  font-style: italic;
+  font-family: "NWTBodoni-Italic", serif;
   bottom: 450px;
   left: -430px;
   transform: rotate(90deg);
@@ -153,8 +200,143 @@ section {
   position: absolute;
   font-size: 130px;
   color: white;
-  font-style: italic;
+  font-family: "NWTBodoni-Italic", serif;
   bottom: 450px;
   right: -430px;
   transform: scaleX(-1) rotate(90deg);
+}
+/* особенности */
+.osobennosti {
+  height: 760px;
+  width: 1440px;
+  position: relative;
+  background: black;
+}
+.kartinka-1 {
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 760px;
+}
+.kartinka-2 {
+  margin-top: 0px;
+  margin-left: 50px;
+  height: 760px;
+}
+/* начертания и цифры */
+.nachertania-tzifri {
+  height: 1390px;
+  width: 1440px;
+  position: relative;
+  background: black;
+}
+.razdel2 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 100px;
+  left: 650px;
+}
+.razdel3 {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 545px;
+  left: 600px;
+}
+.flag {
+  margin-top: 157px;
+  margin-left: 0px;
+  height: 228px;
+}
+.text-flag1 {
+  position: absolute;
+  font-size: 32px;
+  color: black;
+  top: 213px;
+  left: 625px;
+}
+.text-flag2 {
+  position: absolute;
+  font-size: 32px;
+  color: black;
+  top: 255px;
+  left: 630px;
+  font-family: "NWTBodoni-Italic", serif;
+}
+.text-flag3 {
+  position: absolute;
+  font-size: 32px;
+  color: black;
+  top: 295px;
+  left: 505px;
+  font-family: "NWTBodoni-Bold", serif;
+}
+.polosa-1 div {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: black;
+  top: 230px;
+  left: -1380px;
+}
+.polosa-2 div {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: black;
+  top: 265px;
+  left: -1412px;
+}
+.polosa-3 div {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: black;
+  top: 305px;
+  left: -1443px;
+}
+.nachertanie1 {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 220px;
+  left: 90px;
+}
+.nachertanie2 {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 255px;
+  left: 90px;
+  font-family: "NWTBodoni-Italic", serif;
+}
+.nachertanie3 {
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  top: 295px;
+  left: 90px;
+  font-family: "NWTBodoni-Bold", serif;
+}
+.polosa-bolshaia {
+  position: relative;
+  display: block;
+  width: 1250px;
+  height: 2px;
+  background-color: white;
+  top: 0px;
+  left: -1443px;
+  transform: rotate(90deg);
+}
+.tzifri1 {
+  position: absolute;
+  font-size: 110px;
+  color: white;
+  top: 295px;
+  left: 90px;
+  font-family: "NWTBodoni-Italic", serif;
+}
 }
