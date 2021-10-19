@@ -2,19 +2,19 @@
 @import 'content.css';
 @font-face {
     font-family: "NWTBodoni-Regular";
-    url("fonts/NWTBodoni-Regular.ttf") format("truetype");
+    src: url("../fonts/NWTBodoni-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
 @font-face {
     font-family: "NWTBodoni-Bold";
-    url("fonts/NWTBodoni-Bold.ttf") format("truetype");
+    src: url("../fonts/NWTBodoni-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
 @font-face {
     font-family: "NWTBodoni-Italic";
-    url("fonts/NWTBodoni-Italic.ttf") format("truetype");
+    src: url("../fonts/NWTBodoni-Italic.ttf") format("truetype");
     font-style: italic;
     font-weight: normal;
 }
