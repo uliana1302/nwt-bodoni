@@ -7,26 +7,8 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
-  <script type="text/javascript">
-  $(function() {
-    $('.sidebar a').each(function() {
-      $(this).on('click', function(e) {
-        e.preventDefault();
-        var scrollTo = $(this).attr('href');
-        var whitespace = scrollTo == '#s1' ? 70 : 30;
-        $('html,body').animate({
-          scrollTop: $(scrollTo).offset().top - whitespace
-        }, 1000);
-       });
-      });
-      });
-  </script>
 </head>
 <body>
-  <!-- картинка для фона (в конце убрать) -->
-  <div class="fon">
-    <img src="images/1440.png" alt="">
-  </div>
   <!-- первый экран -->
   <section class="first-screen">
     <div class="arrow-1">
