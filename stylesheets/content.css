@@ -21,14 +21,531 @@ section {
 }
 /* первый экран */
 .first-screen {
-  background: black;
+  /* background: black; */
   position:relative;
   height: 810px;
 }
-.srelki_fon {
+.arrow-1 div {
+   position: relative;
+   width: 207px;
+   height: 4px;
+   background-color: black;
+   top: 129px;
+   left: 53px;
+ }
+.arrow-1 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 192px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-1 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 192px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-2 div {
+   position: relative;
+   width: 212px;
+   height: 4px;
+   background-color: black;
+   top: 129px;
+   left: 120px;
+   transform: rotate(-23deg);
+ }
+.arrow-2 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-2 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-3 div {
+   position: relative;
+   width: 212px;
+   height: 4px;
+   background-color: black;
+   top: 110px;
+   left: 162px;
+   transform: rotate(28deg);
+ }
+.arrow-3 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-3 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-4 div {
+   position: relative;
+   width: 182px;
+   height: 4px;
+   background-color: black;
+   top: 105px;
+   left: 282px;
+   transform: rotate(54deg);
+ }
+.arrow-4 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-4 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-5 div {
+   position: relative;
+   width: 197px;
+   height: 4px;
+   background-color: black;
+   top: 129px;
+   left: 375px;
+ }
+.arrow-5 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 185px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-5 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 185px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-6 div {
+   position: relative;
+   width: 232px;
+   height: 4px;
+   background-color: black;
+   top: 250px;
+   right: 960px;
+   transform: rotate(19.5deg);
+ }
+.arrow-6 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -7px;
+   left: 218px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-6 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 218px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-7 div {
+   position: relative;
+   width: 182px;
+   height: 4px;
+   background-color: black;
+   top: 265px;
+   right: 879px;
+   transform: rotate(116deg);
+ }
+.arrow-7 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -6px;
+   left: 169px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-7 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 169px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-8 div {
+   position: relative;
+   width: 182px;
+   height: 4px;
+   background-color: black;
+   top: 270px;
+   right: 825px;
+   transform: rotate(90deg);
+ }
+.arrow-8 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -6px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-8 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 6px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-9 div {
+   position: relative;
+   width: 212px;
+   height: 4px;
+   background-color: black;
+   top: 250px;
+   right: 845px;
+   transform: rotate(-35deg);
+ }
+.arrow-9 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-9 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-10 div {
+   position: relative;
+   width: 182px;
+   height: 4px;
+   background-color: black;
+   top: 250px;
+   right: 820px;
+   transform: rotate(132deg);
+ }
+.arrow-10 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-10 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-11 div {
+   position: relative;
+   width: 182px;
+   height: 4px;
+   background-color: black;
+   top: 250px;
+   right: 800px;
+   transform: rotate(46deg);
+ }
+.arrow-11 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-11 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 167px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-12 div {
+   position: relative;
+   width: 212px;
+   height: 4px;
+   background-color: black;
+   top: 445px;
+   right: 2105px;
+   transform: rotate(133deg);
+ }
+.arrow-12 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 200px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-12 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 200px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-13 div {
+   position: relative;
+   width: 210px;
+   height: 4px;
+   background-color: black;
+   top: 465px;
+   right: 2090px;
+ }
+.arrow-13 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-13 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-14 div {
+   position: relative;
+   width: 162px;
+   height: 4px;
+   background-color: black;
+   top: 385px;
+   right: 2085px;
+   transform: rotate(-90deg);
+ }
+.arrow-14 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 151px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-14 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 151px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-15 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: black;
+   top: 435px;
+   right: 2065px;
+   transform: rotate(19deg);
+ }
+.arrow-15 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 180px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-15 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 180px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-16 div {
+   position: relative;
+   width: 210px;
+   height: 4px;
+   background-color: black;
+   top: 465px;
+   right: 2010px;
+ }
+.arrow-16 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-16 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 197px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-17 div {
+   position: relative;
+   width: 162px;
+   height: 4px;
+   background-color: black;
+   top: 425px;
+   right: 1990px;
+   transform: rotate(90deg);
+ }
+.arrow-17 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 151px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+.arrow-17 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 151px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-18 div {
+   position: relative;
+   width: 207px;
+   height: 4px;
+   background-color: black;
+   top: 690px;
+   right: 3280px;
+ }
+.arrow-18 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   left: 0px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-18 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   left: 0px;
+   background-color: black;
+   transform: rotate(45deg);
+}
+/* .srelki_fon {
   margin-top: 38.2px;
   margin-left: 52.7px;
-}
+} */
 .first-screen .tl-1 p:nth-of-type(1)  {
   position: absolute;
   font-size: 27px;
@@ -105,6 +622,7 @@ section {
   width: 1440px;
   position: relative;
   background: white;
+  display: block;
 }
 .nwt {
   position: absolute;
@@ -141,10 +659,33 @@ section {
   top: 83px;
   left: 1395px;
 }
-.nazvanie-strelka {
-  position: absolute;
-  top: 127px;
-  right: 0px;
+.arrow-0 div {
+   position: relative;
+   width: 151px;
+   height: 4px;
+   background-color: black;
+   top: 140px;
+   left: 1295px;
+ }
+.arrow-0 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -5px;
+   right: 138px;
+   background-color: black;
+   transform: rotate(-45deg);
+}
+.arrow-0 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 5px;
+   right: 138px;
+   background-color: black;
+   transform: rotate(45deg);
 }
 .nazvanie-text {
   width: 460px;
@@ -155,6 +696,7 @@ section {
   left: 820px;
 }
 .oblaka {
+  position: relative;
   margin-top: 518px;
   margin-left: 0px;
   height: 597px;
