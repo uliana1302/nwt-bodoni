@@ -21,7 +21,7 @@ section {
 }
 /* первый экран */
 .first-screen {
-  /* background: black; */
+  background: black;
   position:relative;
   height: 810px;
 }
@@ -29,7 +29,7 @@ section {
    position: relative;
    width: 207px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 129px;
    left: 53px;
  }
@@ -40,7 +40,7 @@ section {
    height: 4px;
    top: -5px;
    left: 192px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-1 div::before {
@@ -50,14 +50,14 @@ section {
    height: 4px;
    top: 5px;
    left: 192px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-2 div {
    position: relative;
    width: 212px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 129px;
    left: 120px;
    transform: rotate(-23deg);
@@ -69,7 +69,7 @@ section {
    height: 4px;
    top: -5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-2 div::before {
@@ -79,14 +79,14 @@ section {
    height: 4px;
    top: 5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-3 div {
    position: relative;
    width: 212px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 110px;
    left: 162px;
    transform: rotate(28deg);
@@ -98,7 +98,7 @@ section {
    height: 4px;
    top: -5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-3 div::before {
@@ -108,14 +108,14 @@ section {
    height: 4px;
    top: 5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-4 div {
    position: relative;
    width: 182px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 105px;
    left: 282px;
    transform: rotate(54deg);
@@ -127,7 +127,7 @@ section {
    height: 4px;
    top: -5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-4 div::before {
@@ -137,14 +137,14 @@ section {
    height: 4px;
    top: 5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-5 div {
    position: relative;
    width: 197px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 129px;
    left: 375px;
  }
@@ -155,7 +155,7 @@ section {
    height: 4px;
    top: -4px;
    left: 185px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-5 div::before {
@@ -165,14 +165,14 @@ section {
    height: 4px;
    top: 4px;
    left: 185px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-6 div {
    position: relative;
    width: 232px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 250px;
    right: 960px;
    transform: rotate(19.5deg);
@@ -184,7 +184,7 @@ section {
    height: 4px;
    top: -7px;
    left: 218px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-6 div::before {
@@ -194,14 +194,14 @@ section {
    height: 4px;
    top: 5px;
    left: 218px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-7 div {
    position: relative;
    width: 182px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 265px;
    right: 879px;
    transform: rotate(116deg);
@@ -213,7 +213,7 @@ section {
    height: 4px;
    top: -6px;
    left: 169px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-7 div::before {
@@ -223,14 +223,14 @@ section {
    height: 4px;
    top: 4px;
    left: 169px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-8 div {
    position: relative;
    width: 182px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 270px;
    right: 825px;
    transform: rotate(90deg);
@@ -242,7 +242,7 @@ section {
    height: 4px;
    top: -6px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-8 div::before {
@@ -252,14 +252,14 @@ section {
    height: 4px;
    top: 6px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-9 div {
    position: relative;
    width: 212px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 250px;
    right: 845px;
    transform: rotate(-35deg);
@@ -271,7 +271,7 @@ section {
    height: 4px;
    top: -5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-9 div::before {
@@ -281,14 +281,14 @@ section {
    height: 4px;
    top: 5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-10 div {
    position: relative;
    width: 182px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 250px;
    right: 820px;
    transform: rotate(132deg);
@@ -300,7 +300,7 @@ section {
    height: 4px;
    top: -5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-10 div::before {
@@ -310,14 +310,14 @@ section {
    height: 4px;
    top: 5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-11 div {
    position: relative;
    width: 182px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 250px;
    right: 800px;
    transform: rotate(46deg);
@@ -329,7 +329,7 @@ section {
    height: 4px;
    top: -5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-11 div::before {
@@ -339,14 +339,14 @@ section {
    height: 4px;
    top: 5px;
    left: 167px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-12 div {
    position: relative;
    width: 212px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 445px;
    right: 2105px;
    transform: rotate(133deg);
@@ -358,7 +358,7 @@ section {
    height: 4px;
    top: -5px;
    left: 200px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-12 div::before {
@@ -368,14 +368,14 @@ section {
    height: 4px;
    top: 5px;
    left: 200px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-13 div {
    position: relative;
    width: 210px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 465px;
    right: 2090px;
  }
@@ -386,7 +386,7 @@ section {
    height: 4px;
    top: -5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-13 div::before {
@@ -396,14 +396,14 @@ section {
    height: 4px;
    top: 5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-14 div {
    position: relative;
    width: 162px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 385px;
    right: 2085px;
    transform: rotate(-90deg);
@@ -415,7 +415,7 @@ section {
    height: 4px;
    top: -4px;
    left: 151px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-14 div::before {
@@ -425,14 +425,14 @@ section {
    height: 4px;
    top: 4px;
    left: 151px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-15 div {
    position: relative;
    width: 192px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 435px;
    right: 2065px;
    transform: rotate(19deg);
@@ -444,7 +444,7 @@ section {
    height: 4px;
    top: -4px;
    left: 180px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-15 div::before {
@@ -454,14 +454,14 @@ section {
    height: 4px;
    top: 4px;
    left: 180px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-16 div {
    position: relative;
    width: 210px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 465px;
    right: 2010px;
  }
@@ -472,7 +472,7 @@ section {
    height: 4px;
    top: -5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-16 div::before {
@@ -482,14 +482,14 @@ section {
    height: 4px;
    top: 5px;
    left: 197px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-17 div {
    position: relative;
    width: 162px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 425px;
    right: 1990px;
    transform: rotate(90deg);
@@ -501,7 +501,7 @@ section {
    height: 4px;
    top: -4px;
    left: 151px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
 .arrow-17 div::before {
@@ -511,14 +511,14 @@ section {
    height: 4px;
    top: 4px;
    left: 151px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-18 div {
    position: relative;
    width: 207px;
    height: 4px;
-   background-color: black;
+   background-color: white;
    top: 690px;
    right: 3280px;
  }
@@ -529,7 +529,7 @@ section {
    height: 4px;
    top: -5px;
    left: 0px;
-   background-color: black;
+   background-color: white;
    transform: rotate(-45deg);
 }
 .arrow-18 div::before {
@@ -539,13 +539,240 @@ section {
    height: 4px;
    top: 5px;
    left: 0px;
-   background-color: black;
+   background-color: white;
    transform: rotate(45deg);
 }
-/* .srelki_fon {
-  margin-top: 38.2px;
-  margin-left: 52.7px;
-} */
+.arrow-19 div {
+   position: relative;
+   width: 142px;
+   height: 4px;
+   background-color: white;
+   top: 700px;
+   right: 3285px;
+   transform: rotate(-90deg);
+ }
+.arrow-19 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 135px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-19 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 135px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-20 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: white;
+   top: 620px;
+   right: 3355px;
+   transform: rotate(56deg);
+ }
+.arrow-20 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-20 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-21 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: white;
+   top: 585px;
+   right: 3345px;
+   transform: rotate(-27deg);
+ }
+.arrow-21 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-21 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-22 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: white;
+   top: 720px;
+   right: 3535px;
+   transform: rotate(27deg);
+ }
+.arrow-22 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-22 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-23 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: white;
+   top: 610px;
+   right: 3555px;
+   transform: rotate(123deg);
+ }
+.arrow-23 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-23 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-24 div {
+   position: relative;
+   width: 142px;
+   height: 4px;
+   background-color: white;
+   top: 680px;
+   right: 3590px;
+   transform: rotate(90deg);
+ }
+.arrow-24 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 135px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-24 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 135px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+.arrow-25 div {
+   position: relative;
+   width: 192px;
+   height: 4px;
+   background-color: white;
+   top: 590px;
+   right: 3620px;
+   transform: rotate(-150deg);
+ }
+.arrow-25 div::after {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: -4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(45deg);
+}
+.arrow-25 div::before {
+   content: '';
+   position: absolute;
+   width: 15px;
+   height: 4px;
+   top: 4px;
+   left: 183px;
+   background-color: white;
+   transform: rotate(-45deg);
+}
+ .arrow-26 div {
+    position: relative;
+    width: 207px;
+    height: 4px;
+    background-color: white;
+    top: 690px;
+    right: 3543px;
+  }
+ .arrow-26 div::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    top: -5px;
+    left: 0px;
+    background-color: white;
+    transform: rotate(-45deg);
+ }
+ .arrow-26 div::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    top: 5px;
+    left: 0px;
+    background-color: white;
+    transform: rotate(45deg);
+ }
 .first-screen .tl-1 p:nth-of-type(1)  {
   position: absolute;
   font-size: 27px;
