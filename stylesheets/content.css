@@ -888,11 +888,11 @@ section {
 }
 .arrow-0 div {
    position: relative;
-   width: 151px;
+   width: 200px;
    height: 4px;
    background-color: black;
    top: 140px;
-   left: 1295px;
+   left: 1240px;
  }
 .arrow-0 div::after {
    content: '';
@@ -900,7 +900,7 @@ section {
    width: 15px;
    height: 4px;
    top: -5px;
-   right: 138px;
+   right: 188px;
    background-color: black;
    transform: rotate(-45deg);
 }
@@ -910,7 +910,7 @@ section {
    width: 15px;
    height: 4px;
    top: 5px;
-   right: 138px;
+   right: 188px;
    background-color: black;
    transform: rotate(45deg);
 }
@@ -1185,7 +1185,7 @@ section {
 }
 /* символы */
 .simvoli {
-  height: 1040px;
+  height: 1050px;
   width: 1440px;
   position: relative;
   background: white;
@@ -1197,11 +1197,126 @@ section {
   top: 70px;
   left: 655px;
 }
-.simvoli_ {
-  margin-top: 122px;
+.s1 {
+  position: absolute;
+  margin-top: 120px;
   margin-left: 0px;
-  height: 918px;
-  width: 1440px;
+  border: 1px dashed black;
+}
+.s2 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 285px;
+  border: 1px dashed black;
+}
+.s3 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 575px;
+  border: 1px dashed black;
+}
+.s4 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 865px;
+  border: 1px dashed black;
+}
+.s5 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 1154px;
+  border: 1px dashed black;
+}
+.s6 {
+  position: absolute;
+  margin-top: 351px;
+  margin-left: 0px;
+  border: 1px dashed black;
+}
+.s7 {
+  position: absolute;
+  margin-top: 351px;
+  margin-left: 285px;
+  border: 1px dashed black;
+}
+.s8 {
+  position: absolute;
+  margin-top: 351px;
+  margin-left: 575px;
+  border: 1px dashed black;
+}
+.s9 {
+  position: absolute;
+  margin-top: 351px;
+  margin-left: 865px;
+  border: 1px dashed black;
+}
+.s10 {
+  position: absolute;
+  margin-top: 351px;
+  margin-left: 1154px;
+  border: 1px dashed black;
+}
+.s11 {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 0px;
+  border: 1px dashed black;
+}
+.s12 {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 285px;
+  border: 1px dashed black;
+}
+.s13 {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 575px;
+  border: 1px dashed black;
+}
+.s14 {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 865px;
+  border: 1px dashed white;
+  background-color: black;
+}
+.s15 {
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 1154px;
+  border: 1px dashed black;
+}
+.s16 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 0px;
+  border: 1px dashed black;
+}
+.s17 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 285px;
+  border: 1px dashed black;
+}
+.s18 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 575px;
+  border: 1px dashed black;
+}
+.s19 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 865px;
+  border: 1px dashed black;
+}
+.s20 {
+  position: absolute;
+  margin-top: 810px;
+  margin-left: 1154px;
+  border: 1px dashed black;
 }
 /* языки */
 .iaziki {
