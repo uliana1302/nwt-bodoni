@@ -11,14 +11,6 @@ body {
 section {
   display: flex;
 }
-/* картинка для фона (в конце убрать) */
-.fon {
-  position: absolute;
-  display: block;
-  width: 1440px;
-  height: 9389px;
-  opacity: 0.2;
-}
 /* первый экран */
 .first-screen {
   background: black;
@@ -870,7 +862,6 @@ section {
 }
 .bodoni p {
   font-family: "NWTBodoni-Italic", serif;
-
 }
 .nazvanie .tl-6 p:nth-of-type(1) {
   position: absolute;
